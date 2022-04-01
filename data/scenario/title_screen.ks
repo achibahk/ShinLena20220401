@@ -6,11 +6,11 @@
 
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Magic_in_the_Garden.ogg"  ]
 *title
 
 [bg  storage="title.png"  ]
-[tb_image_hide  time="1000"  ]
-[glink  color="btn_04_black"  text="New&nbsp;Game"  x="253"  y="561"  size="20"  target="*start"  width=""  height=""  _clickable_img=""  ]
+[glink  color="btn_04_black"  text="New&nbsp;Game"  x="203"  y="650"  size="20"  target="*start"  width="200"  height=""  _clickable_img=""  ]
 [s  ]
 *start
 

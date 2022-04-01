@@ -1,9 +1,12 @@
-[_tb_system_call storage=system/scene1.ks]
+[_tb_system_call storage=system/preview.ks ]
 
+[mask time=10]
+[mask_off time=10]
 [cm  ]
 [hidemenubutton]
 
 [bg  storage="bg1.png"  time="1000"  ]
+[reset_camera  time="1000"  wait="true"  ]
 [chara_show  name="シン"  time="1000"  wait="true"  storage="chara/1/shin.png"  width="499"  height="1117"  left="59"  top="-1"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -17,12 +20,14 @@
 どうしたんしですか？[p]
 [_tb_end_text]
 
+[camera  time="1000"  zoom="2"  wait="true"  y="150"  ]
 [tb_start_text mode=1 ]
 #シン
 いや。それが。[p]
 [font size=40 bold=true]妊娠したみたい。[resetfont][p]
 [_tb_end_text]
 
+[reset_camera  time="1000"  wait="true"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #レーナ
